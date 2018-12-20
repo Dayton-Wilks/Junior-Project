@@ -1,0 +1,9 @@
+config -- global user.name ""
+		 user.email ""
+clone http:/gitlab.cset.oit.edu/CertiTracker/Test_Project.git
+cd Test_Project
+dir
+git pull
+git add tells file to keep track of
+git commit -m updates your local repository with the changes
+git push updates offsite repository/team repository
